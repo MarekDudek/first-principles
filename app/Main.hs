@@ -1,6 +1,7 @@
 module Main where
 
 import Lib
+import HelloHaskell
 
 main :: IO ()
-main = someFunc
+main = sayHello "World"
